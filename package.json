@@ -1,0 +1,27 @@
+{
+  "name": "alter-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{ts,js,json,tsx,css,less,scss,vue,html,md}\"",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "nprogress": "^0.2.0",
+    "path": "^0.12.7",
+    "path-to-regexp": "^6.2.0",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "@types/nprogress": "^0.2.0",
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.11",
+    "prettier": "^2.3.2",
+    "sass": "^1.32.8",
+    "typescript": "^4.1.3",
+    "vite": "^2.0.5"
+  }
+}

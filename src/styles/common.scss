@@ -1,0 +1,10 @@
+/* 通用样式 */
+
+// 透明图层
+.transparent-layer {
+    background-size: 32px 32px;
+    background-color: #fff;
+    background-position: 0 0, 16px 16px;
+    background-image: linear-gradient(to top right, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc),
+        linear-gradient(to top right, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc);
+}

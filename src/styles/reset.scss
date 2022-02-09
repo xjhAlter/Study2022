@@ -1,0 +1,52 @@
+/* 重置浏览器默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+    font-size: 14px;
+    font-family: '微软雅黑';
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: unset;
+    &:hover,
+    &:active,
+    &:visited {
+        color: unset;
+    }
+}
+div,
+textarea,
+input,
+table,
+td,
+tr,
+tbody,
+ul,
+li,
+button:focus {
+    outline: unset;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #bbb;
+    &:hover {
+        background-color: #999;
+    }
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #f4f4f4;
+}
