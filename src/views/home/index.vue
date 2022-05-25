@@ -8,7 +8,9 @@
     </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+    console.log('test')
+</script>
 
 <style lang="scss" scoped>
     .home-page {
